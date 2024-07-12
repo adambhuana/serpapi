@@ -33,7 +33,7 @@
         // Menutup koneksi
         $conn->close();
         $query = urlencode($_GET['query']);
-        $api_key = '28631dd982fd40c01eac0bfe5b600ae7653360d85434bd1c1d1d800418169e0d'; // Ganti dengan API key Anda
+        $api_key = 'YOUR_SERPAPI_KEY'; // Ganti dengan API key Anda
         $url = "https://serpapi.com/search.json?engine=google_maps&q=".$query."&api_key=".$api_key;
         
         // echo $url;
